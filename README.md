@@ -1,30 +1,48 @@
-Introducing KHEL-BID: The Ultimate Sports Talent Marketplace
-KHEL-BID is a revolutionary mobile platform designed to connect aspiring athletes directly with scouts, clubs, and recruiters. It's a comprehensive ecosystem where you can showcase your talent, prove your skills with cutting-edge AI, and get hired through a unique bidding marketplace.
+Krida-Pratibha: The Ultimate Sports Talent Marketplace
 
-Key Features:
+Krida-Pratibha is a groundbreaking mobile platform that bridges the gap between aspiring athletes and professional scouts, clubs, and recruiters. It’s more than an app — it’s a complete ecosystem where talent meets opportunity, powered by AI-driven performance verification and a first-of-its-kind bidding marketplace.
 
-Dynamic Athlete Profile & Reel Sharing:
+🔹 Key Features
+1. Dynamic Athlete Profiles & Reel Sharing
 
-Create a professional sports profile and upload highlight videos and reels of your gameplay, just like on a social media platform. Gain visibility and let your talent shine for a global audience of recruiters, fans, and fellow players.
+Build your professional sports profile, showcase your highlight reels, and share gameplay videos just like on a social platform. Gain visibility on a global stage where recruiters, fans, and fellow athletes can discover your skills.
 
-AI-Powered Performance Verification:
+2. AI-Powered Performance Verification
 
-Go beyond simple videos. Our app uses Google MediaPipe to analyze your performance in standardized fitness and sport-specific drills. Get instant, unbiased feedback on metrics like jump height, speed, agility, and rep counts, with built-in AI cheat detection to ensure fair and authentic assessments.
+Go beyond highlight videos. Using Google MediaPipe, Krida-Pratibha analyzes standardized fitness and sport-specific drills to provide:
 
-The Bidding & Recruitment Marketplace:
+Jump height, speed, agility, and rep counts
 
-Get Noticed: Recruiters scout talent by watching reels and reviewing profiles.
+Real-time, unbiased performance feedback
 
-Bidding Begins: Interested recruiters place bids to win an exclusive chance to formally assess you.
+AI-powered cheat detection for fairness and authenticity
 
-AI-Screening: The winning recruiter assigns specific tests. You perform them on the app, and our AI verifies your results, serving as an official initial screening.
+This ensures scouts see the true potential behind every athlete.
 
-The Final Trial: If you pass the AI screening, you'll be invited for an in-person trial, leading to a professional contract.
+3. The Bidding & Recruitment Marketplace
 
-AI-Powered Community Safety:
+Get Discovered → Recruiters browse reels and athlete profiles.
 
-Just like major social networks, our platform uses an advanced AI model to automatically detect and flag any video content that breaches community guidelines, ensuring a safe, positive, and professional environment for all users.
+Let the Bidding Begin → Scouts place bids for the exclusive right to assess you.
 
-Our Business Model:
+AI Screening → The winning recruiter assigns performance tests. Athletes complete them via the app, verified by AI.
 
-We succeed when you succeed. KHEL-BID operates on a fair, performance-based model. We take a small 1-2% commission from an athlete's salary only after they have been successfully discovered and signed to a professional contract through our platform.
+Final Trials → Pass AI screening and receive invitations for in-person trials, leading to potential contracts.
+
+4. AI-Powered Community Safety
+
+We prioritize athlete safety and professionalism. Our platform uses advanced AI moderation to automatically detect and flag inappropriate or harmful content, ensuring a secure and positive environment for everyone.
+
+🔹 Our Business Model
+
+Krida-Pratibha succeeds only when athletes succeed.
+
+We charge a small 1–2% commission on an athlete’s salary only after they’ve been successfully signed to a professional contract through our platform.
+
+No upfront fees. No hidden costs. Just fair, performance-driven opportunities.
+
+🚀 Why Krida-Pratibha?
+
+For athletes: A direct path from passion to profession.
+For recruiters: Authentic, data-driven insights into real talent.
+For the sports world: A smarter, fairer, AI-powered marketplace for discovering the next generation of stars.
