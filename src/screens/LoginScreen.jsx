@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { SparklesIcon } from '../components/icons';
+import React from 'react';
+// CORRECTED FILE PATH
+import { SparklesIcon } from '../components/icons.jsx';
 
 // --- Icons for the Buttons ---
 const AthleteIcon = () => (
@@ -14,69 +15,46 @@ const RecruiterIcon = () => (
 );
 
 export default function LoginScreen({ onLogin }) {
-    const [mousePosition, setMousePosition] = useState({ x: -1000, y: -1000 });
-
-    // This effect adds the interactive gradient spotlight that follows the mouse
-    useEffect(() => {
-        const handleMouseMove = (e) => {
-            setMousePosition({ x: e.clientX, y: e.clientY });
-        };
-        
-        window.addEventListener('mousemove', handleMouseMove);
-
-        return () => {
-            window.removeEventListener('mousemove', handleMouseMove);
-        };
-    }, []);
-
-    const backgroundStyle = {
-        background: `radial-gradient(600px at ${mousePosition.x}px ${mousePosition.y}px, rgba(34, 211, 238, 0.15), rgba(52, 211, 153, 0.15), transparent 80%)`
-    };
-
     return (
         <div className="relative flex flex-col items-center justify-center h-screen bg-slate-100 text-slate-800 p-4 overflow-hidden">
-            {/* Dynamic Interactive Background */}
-            <div 
-                className="absolute inset-0 transition-all duration-300 -z-10" 
-                style={backgroundStyle}
-            ></div>
-            
             <div 
                 className="relative z-10 w-full max-w-md bg-white/70 backdrop-blur-xl border border-gray-200/80 rounded-3xl p-8 text-center shadow-2xl"
             >
                 
                 <div className="flex flex-col items-center mb-8">
-                    <div className="p-3 bg-emerald-100 rounded-full mb-4 border border-emerald-200">
-                         <SparklesIcon className="w-12 h-12 text-emerald-500" />
+                    <div className="p-3 bg-lime-100 rounded-full mb-4 border border-lime-200">
+                         <SparklesIcon className="w-12 h-12 text-lime-600" />
                     </div>
                     <h1 className="text-4xl font-bold tracking-tight text-slate-900">Krida-Pratibha</h1>
                     <p className="text-lg text-slate-600 mt-2">Unearthing India's Sporting Talent</p>
                 </div>
 
                 <div className="space-y-4">
+                    {/* --- UPDATED ATHLETE BUTTON --- */}
                     <button
                         onClick={() => onLogin('player')}
-                        className="group w-full text-left bg-emerald-500 hover:bg-emerald-600 text-white p-4 rounded-xl shadow-lg flex items-center gap-4 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl"
+                        className="group w-full text-left bg-gradient-to-r from-lime-500 to-green-500 hover:opacity-90 text-white p-4 rounded-xl shadow-lg flex items-center gap-4 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl"
                     >
                         <div className="p-3 bg-white/20 rounded-lg">
                             <AthleteIcon />
                         </div>
                         <div>
                             <h2 className="font-bold text-lg">I am an Athlete</h2>
-                            <p className="text-sm text-emerald-100">Showcase my skills and get discovered.</p>
+                            <p className="text-sm text-green-100">Showcase my skills and get discovered.</p>
                         </div>
                     </button>
                     
+                    {/* --- UPDATED RECRUITER BUTTON --- */}
                     <button
                         onClick={() => onLogin('recruiter')}
-                        className="group w-full text-left bg-white hover:bg-gray-50 border border-gray-300 p-4 rounded-xl shadow-lg flex items-center gap-4 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl"
+                        className="group w-full text-left bg-white hover:bg-slate-50 border border-slate-300 p-4 rounded-xl shadow-lg flex items-center gap-4 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl"
                     >
-                        <div className="p-3 bg-gray-100 rounded-lg group-hover:bg-gray-200">
-                           <RecruiterIcon className="text-gray-600"/>
+                        <div className="p-3 bg-slate-100 rounded-lg group-hover:bg-slate-200">
+                           <RecruiterIcon className="text-slate-600"/>
                         </div>
                          <div>
-                            <h2 className="font-bold text-lg text-gray-800">I am a Recruiter</h2>
-                            <p className="text-sm text-gray-500">Find and recruit the next generation.</p>
+                            <h2 className="font-bold text-lg text-slate-800">I am a Recruiter</h2>
+                            <p className="text-sm text-slate-500">Find and recruit the next generation.</p>
                         </div>
                     </button>
                 </div>
@@ -84,4 +62,3 @@ export default function LoginScreen({ onLogin }) {
         </div>
     );
 }
-

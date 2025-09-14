@@ -1,8 +1,5 @@
 import React from 'react';
-
-// --- Re-importing icons here to be used in the data object ---
-const ZapIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>;
-const DumbbellIcon = () => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14.4 14.4 9.6 9.6"/><path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.828l1.768-1.767a2 2 0 1 1-2.828-2.829l-1.768 1.768a2 2 0 1 1-2.828-2.828l1.768-1.768a2 2 0 1 1-2.829-2.828l3.536-3.535a2.001 2.001 0 0 1 2.828 0l1.768 1.768a2 2 0 1 1 2.829 2.828l-1.768 1.768a2 2 0 1 1 2.828 2.828l1.768-1.767a2 2 0 1 1 2.828 2.828l-3.535 3.536a2 2 0 0 1-2.829 0Z"/></svg>;
+import { ZapIcon, DumbbellIcon } from '/src/components/icons.jsx';
 
 export const mockPlayerData = {
     name: "Aarav Sharma",
@@ -34,3 +31,18 @@ export const mockReelsData = [
     { id: 2, player: "Rohan Kumar", playerPic: "https://placehold.co/40x40/E2E8F0/4A5568?text=RK", videoUrl: "#", caption: "New personal best in hurdles.", likes: 250, comments: 32 },
     { id: 3, player: "Aarav Sharma", playerPic: "https://placehold.co/40x40/E2E8F0/4A5568?text=AS", videoUrl: "#", caption: "Morning sprints to start the day right.", likes: 310, comments: 45 },
 ];
+
+// UPDATED Mock Performance History with peer average
+export const mockPerformanceHistory = {
+    label: "Vertical Jump Progress (Last 6 Months)",
+    peerAverage: 31, // Peer average for this skill
+    data: [
+        { name: "Mar", value: 28 },
+        { name: "Apr", value: 30 },
+        { name: "May", value: 29 },
+        { name: "Jun", value: 32 },
+        { name: "Jul", value: 31.5 },
+        { name: "Aug", value: 34 },
+    ]
+};
+
