@@ -1,4 +1,4 @@
-Krida-Pratibha: The Ultimate Sports Talent Marketplace
+Pratibha-Kram: The Ultimate Sports Talent Marketplace
 
 Krida-Pratibha is a groundbreaking mobile platform that bridges the gap between aspiring athletes and professional scouts, clubs, and recruiters. It’s more than an app — it’s a complete ecosystem where talent meets opportunity, powered by AI-driven performance verification and a first-of-its-kind bidding marketplace.
 
